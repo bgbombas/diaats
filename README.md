@@ -1,4 +1,4 @@
-#diaats
+# diaats
 
 [![Build Status](https://travis-ci.org/tsuru/diaats.svg?branch=master)](https://travis-ci.org/tsuru/diaats)
 
@@ -36,7 +36,7 @@ What the API does:
  - on service-unbind, it doesn't do anything
  - on service-remove, it removes the container from the configured Docker host
 
-##Deployment example
+## Deployment example
 
 Users could deploy this API as a "memcached" service, offering multiple
 versions of memcached, as available in the [Docker
